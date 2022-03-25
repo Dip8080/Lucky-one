@@ -21,11 +21,18 @@ const funHandle = (rcvData)=>{
 
       newArr = [...cart ,rcvData] 
     }
+    else{
+        alert('can not add same item twice')
+        if(alert){
+            newArr =[...cart]
+        }
+    }
 
     setCart(newArr)    
 }
 
-
+let rand = [cart[Math.random() * cart.length>>0]]
+console.log(rand)
 
     return (
         <div>
@@ -37,9 +44,14 @@ const funHandle = (rcvData)=>{
                     }
                 </div>
 
-                <div className='cart p-4 '>
+                <div className='p-4 Cart'>
                     <h1> cart summery {cart.length}</h1>
-                    <Cart cart={cart}></Cart>
+                    <Cart cart={cart} fun = {funHandle} ></Cart>
+                    
+                    <div>
+                        <button onClick={()=>setCart(rand)} className='grid rounder bg-green-200 shdow p-3'>random selection</button>
+                         <button onClick={()=>setCart([])} className='my-2 rounder bg-green-200 shdow p-3'>remove Cart</button>
+                    </div>
                 </div>
             </div>
         </div>

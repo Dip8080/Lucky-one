@@ -8,12 +8,11 @@
 .shop{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    position: absolute ;
+    
     
     
 }
-
-.cart{
-    border: 1px solid red;
+.Cart{
     position: sticky;
-    top: 0;
 }
