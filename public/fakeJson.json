@@ -2,67 +2,56 @@
   {
     "id": "623dd43742586732ab3332a7",
     "name": "Cooper Christian",
-    "img": "http://placehold.it/32x32",
-    "price": 39
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 9000
   },
   {
     "id": "623dd43704f238f581dacb30",
     "name": "Villarreal Good",
-    "img": "http://placehold.it/32x32",
-    "price": 21
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 5000
   },
   {
     "id": "623dd437d203e2a175808440",
     "name": "Atkinson Saunders",
-    "img": "http://placehold.it/32x32",
-    "price": 33
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 7800
   },
   {
     "id": "623dd43739e1916dd4697f60",
     "name": "Mendez Meyers",
-    "img": "http://placehold.it/32x32",
-    "price": 31
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 600
   },
   {
     "id": "623dd437b56f4df84c33f9fb",
     "name": "Darla Mendez",
-    "img": "http://placehold.it/32x32",
-    "price": 40
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 4500
   },
   {
     "id": "623dd4371cfe9a16e9d92ea9",
     "name": "Blackwell Best",
-    "img": "http://placehold.it/32x32",
-    "price": 28
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 3000
   },
   {
-    "id": "623dd437495bcbe10e3a0f1b",
-    "name": "Sheree Swanson",
-    "img": "http://placehold.it/32x32",
-    "price": 27
-  },
-  {
-    "id": "623dd43739e1916dd4697f60",
-    "name": "Mendez Meyers",
-    "img": "http://placehold.it/32x32",
-    "price": 31
-  },
-  {
-    "id": "623dd437b56f4df84c33f9fb",
-    "name": "Darla Mendez",
-    "img": "http://placehold.it/32x32",
-    "price": 40
-  },
-  {
-    "id": "623dd4371cfe9a16e9d92ea9",
+    "id": "623dd4371cfe9a16e9d92gf3",
     "name": "Blackwell Best",
-    "img": "http://placehold.it/32x32",
-    "price": 28
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 1500
   },
   {
-    "id": "623dd43742586732ab3332a7",
-    "name": "Cooper Christian",
-    "img": "http://placehold.it/32x32",
-    "price": 39
+    "id": "623dd4371cfe9a16e9d924jf",
+    "name": "Blackwell Best",
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 1200
+  }
+  ,
+  {
+    "id": "623dd4371cfe9a16e9d92jk7",
+    "name": "Blackwell Best",
+    "img": "https://photoshop-kopona.com/uploads/posts/2019-08/1565115973_watch_1.jpg",
+    "price": 8400
   }
 ]
