@@ -22,13 +22,17 @@ const funHandle = (rcvData)=>{
       newArr = [...cart ,rcvData] 
     }
     else{
-        alert('can not add same item twice')
+        alert('already been hired . try another killer .')
         if(alert){
             newArr =[...cart]
         }
     }
-
-    setCart(newArr)    
+    if(newArr.length <= 4){
+    setCart(newArr)
+    }
+    else{
+        alert('I think 4 hitmen is enough to handle your ex')
+    }    
 }
 
 let rand = [cart[Math.random() * cart.length>>0]]
