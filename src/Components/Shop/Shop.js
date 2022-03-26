@@ -2,6 +2,7 @@ import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Procucts from '../Products/Procucts';
+import Question from '../Question/Question';
 import ('./Shop.css')
 const Shop = () => {
     const [watch, setWatch] = useState([])
@@ -56,6 +57,9 @@ console.log(rand)
                         <button onClick={()=>setCart(rand)} className='grid rounded bg-rose-700 shadow p-3 hover:bg-rose-800'>random selection</button>
                          <button onClick={()=>setCart([])} className='my-2 rounded bg-rose-700 shadow p-3  hover:bg-rose-800'>remove Cart</button>
                     </div>
+                </div>
+                <div className='qna shadow p-2'>
+                <Question></Question>
                 </div>
             </div>
        

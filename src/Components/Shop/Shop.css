@@ -32,4 +32,7 @@
     .Cart{
         order: 0;
     }
+    .qna{
+        order: 2;
+    }
 }
