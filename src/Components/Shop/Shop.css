@@ -9,10 +9,8 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     position: absolute ;
+    width: 100%;
     
     
     
-}
-.Cart{
-    position: sticky;
 }

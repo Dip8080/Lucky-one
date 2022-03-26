@@ -22,7 +22,7 @@ const MiniCart = (props) =>{
     const recFunction = props.fun;
     return(
        
-        <div className='flex miniCart my-2 cart'>
+        <div className='flex miniCart my-2 cart shadow-lg'>
             <img src={img}></img>
             <h1 className='p-3'> {name}</h1>
             <h1 className='p-3 mt-3'>{price}</h1>

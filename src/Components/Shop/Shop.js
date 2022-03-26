@@ -35,8 +35,8 @@ let rand = [cart[Math.random() * cart.length>>0]]
 console.log(rand)
 
     return (
-        <div>
-            <div className='shop mt-4 p-3 '>
+       
+            <div className='shop  p-3 bg-rose-700'>
 
                 <div className='products'>
                     {
@@ -44,17 +44,17 @@ console.log(rand)
                     }
                 </div>
 
-                <div className='p-4 Cart'>
-                    <h1> cart summery {cart.length}</h1>
+                <div className='p-4 Cart '>
+                    <h1 className='shadow p-2'> selected hitman : {cart.length}</h1>
                     <Cart cart={cart} fun = {funHandle} ></Cart>
                     
                     <div>
-                        <button onClick={()=>setCart(rand)} className='grid rounder bg-green-200 shdow p-3'>random selection</button>
-                         <button onClick={()=>setCart([])} className='my-2 rounder bg-green-200 shdow p-3'>remove Cart</button>
+                        <button onClick={()=>setCart(rand)} className='grid rounded bg-rose-700 shadow p-3 hover:bg-rose-800'>random selection</button>
+                         <button onClick={()=>setCart([])} className='my-2 rounded bg-rose-700 shadow p-3  hover:bg-rose-800'>remove Cart</button>
                     </div>
                 </div>
             </div>
-        </div>
+       
     );
 };
 

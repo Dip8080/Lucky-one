@@ -1,11 +1,11 @@
 import React from 'react';
-import{FaBeer} from "@react-icons/all-files/fa/FaBeer"
+import{GiPistolGun} from "@react-icons/all-files/gi/GiPistolGun"
 import('./Products.css')
 const Procucts = (props) => {
     const {id , name, img , price} = props.productObj
     const rcvFunction = props.fun;
     return (
-        <div className='productCard p-6'>
+        <div className='productCard p-6 shadow bg-rose-700'>
         <img src={img}></img>
 
        <div className=''>
@@ -14,8 +14,8 @@ const Procucts = (props) => {
        </div>
        <button
        onClick={()=>rcvFunction(props.productObj)}
-       className='cardBtn rounded bg-purple-400 hover:bg-purple-800 p-3  mt-3  flex'>Add to cart
-       <span className='px-3 pt-1'><FaBeer></FaBeer></span> 
+       className='shadow cardBtn rounded bg-rose-700 hover:bg-rose-800 p-3  mt-3  flex'>Add to cart
+       <span className='px-3 pt-1 text-2xl'><GiPistolGun></GiPistolGun></span> 
        </button> 
        </div>
     );
