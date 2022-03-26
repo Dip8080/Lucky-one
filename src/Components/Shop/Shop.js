@@ -44,7 +44,7 @@ console.log(rand)
                     }
                 </div>
 
-                <div className='p-4 Cart '>
+                <div className='px-4 Cart '>
                     <h1 className='shadow p-2'> selected hitman : {cart.length}</h1>
                     <Cart cart={cart} fun = {funHandle} ></Cart>
                     

@@ -9,13 +9,13 @@ const Procucts = (props) => {
         <img src={img}></img>
 
        <div >
-       <h1 className='mt-6'>name : {name}</h1>
+       <h1 className='mt-6 subpixel-antialiased'>name : {name}</h1>
        <h1>price: $ {price}</h1>
        </div>
        <button
        onClick={()=>rcvFunction(props.productObj)}
-       className='shadow cardBtn rounded bg-rose-700 hover:bg-rose-800 p-3  mt-3  flex'>Hit to cart
-       <span className='px-3 pt-1 text-2xl'><GiPistolGun></GiPistolGun></span> 
+       className='shadow cardBtn rounded bg-rose-700 hover:bg-rose-800 p-3  mt-3  flex subpixel-antialiased'>Hit to cart
+       <span className='px-3 pt-1 text-2xl subpixel-antialiased'><GiPistolGun></GiPistolGun></span> 
        </button> 
        </div>
     );
